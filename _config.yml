@@ -77,7 +77,6 @@ content:
             From business point of view I play the role of translator from business language into mathematicaly correct tasks.  \
             We develop algorithms for remote sensing data segmentation combining domain research and modern deep learning techniques.
 
-
         - layout: left
           title: Northern Capital Gateway LLC
           link: https://pulkovoairport.ru
@@ -127,7 +126,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Semantic Segmentation of Remote Sensing data
+        title: Semantic Segmentation of Remote Sensing Data
         # link_text: Project Website
         additional_links:
           - title: Habr
@@ -141,7 +140,7 @@ content:
           The main challenge was the relative small resolution of the available data (10 - 100 m/px), so some problems like connected road graph detection required developing algorithms different from traditional CNNs.
           At the moment we successfully detect roads, buildings, water objects, wetlands, forests (and their types), estimate biomass volumes and CO2 consumption, detect clouds,  sand spots, and upscale data resolution.
           Solutions for some of the listed problems (on the similar data resolution) are not published in the scientific papers, but where such comparison can be correctly performed - our results are close and sometimes (depending on the region) even higher than the SOTA.  \
-          **Algorithms stack:** modern architectures for semantic segmentation (U-net and its variants, FarSeg, Swin transformer U-net) and some self-made architectures. We use ESRGAN, SwinIR and custome architectures for image super-resolution. Also we use CRFs for postprocessing.  \
+          **Algorithms stack:** modern architectures for semantic segmentation (U-net and its variants, FarSeg, Swin transformer U-net) and some self-made architectures. We use ESRGAN, SwinIR and custom architectures for image super-resolution. Also we use CRFs for postprocessing.  \
           **Technology stack:** PyTorch, Shapely, GDAL, PostgreSQL, GeoAlchemy, FastAPI, Docker  \
           Currently we are packing our solutions into QGIS software plugin for our customer.
 
