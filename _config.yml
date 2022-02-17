@@ -145,7 +145,7 @@ content:
             url: https://coursera.org/share/7097729f7fde92dc3fe56d39d3b889a7
       - layout: left
         title: Coursera
-        subtitle: TensorFlow Advanced Techniques by deeplearning.ai
+        sub_title: TensorFlow Advanced Techniques by deeplearning.ai
         caption: Spring 2021
         additional_links:
           - title: Coursera
