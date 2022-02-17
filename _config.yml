@@ -65,12 +65,12 @@ content:
             icon: fab fa-link
             url: https://numdes.com/
         description: | # this will include new lines to allow paragraphs
-          This project started as the research how much useful data we can extract from open source remote sensing data (Sentinel-2, Landsat-8, ALOS & Arctic DEM).
-          The main challenge was the relative small resolution of the available data (10 - 100 m/px), so some problems like connected road graph detection required developing algorithms different from traditional CNNs.
-          At the moment we successfully detect roads, buildings, water objects, wetlands, forests (and their types), estimate biomass volumes and CO2 consumption, detect clouds,  sand spots, and upscale data resolution.
-          Solutions for some of the listed problems (on the similar data resolution) are not published in the scientific papers, but where such comparison can be correctly perform - our results are close and sometimes (depending on the region) even higher than the SOTA.
-          **Models stack:** modern architectures for semantic segmentation (U-net and its variants, FarSeg, Swin transformer U-net) and some self-made architectures. We use ESRGAN, SwinIR and custome architectures for image super-resolution. Also we use CRFs for postprocessing
-          **Technology stack:** PyTorch, Shapely, GDAL, PostgreSQL, GeoAlchemy, FastAPI, Docker
+          This project started as the research how much useful data we can extract from open source remote sensing data (Sentinel-2, Landsat-8, ALOS & Arctic DEM).  \
+          The main challenge was the relative small resolution of the available data (10 - 100 m/px), so some problems like connected road graph detection required developing algorithms different from traditional CNNs.  \
+          At the moment we successfully detect roads, buildings, water objects, wetlands, forests (and their types), estimate biomass volumes and CO2 consumption, detect clouds,  sand spots, and upscale data resolution.  \
+          Solutions for some of the listed problems (on the similar data resolution) are not published in the scientific papers, but where such comparison can be correctly perform - our results are close and sometimes (depending on the region) even higher than the SOTA.  \
+          **Models stack:** modern architectures for semantic segmentation (U-net and its variants, FarSeg, Swin transformer U-net) and some self-made architectures. We use ESRGAN, SwinIR and custome architectures for image super-resolution. Also we use CRFs for postprocessing.  \
+          **Technology stack:** PyTorch, Shapely, GDAL, PostgreSQL, GeoAlchemy, FastAPI, Docker  \
           Currently we are packing our solutions into QGIS software plugin for our customer.
 
       - layout: top-middle
@@ -83,9 +83,9 @@ content:
             icon: fab fa-link
             url: https://numdes.com/
         description: |
-            At this project I was developing algorithms for multi-factor optimization of general topology, network of roads and pipes to minimize total construction cost.
-            As the result we have provided solution that is more cost and space utilization efficient than the one, which was manualy developed by the expert.
-            **Models stack:** Bayessian optimization, Dijkstra, SGD
+            At this project I was developing algorithms for multi-factor optimization of general topology, network of roads and pipes to minimize total construction cost.  \
+            As the result we have provided solution that is more cost and space utilization efficient than the one, which was manualy developed by the expert.  \
+            **Models stack:** Bayessian optimization, Dijkstra, SGD  \
             **Technology stack:** PyTorch, Shapely, GDAL, Optuna, PostgreSQL, GeoAlchemy, Graphene, Docker
 
 
@@ -99,9 +99,9 @@ content:
         sub_title: Team Lead ML engineer
         caption: December 2019 - Present
         description: | # this will include new lines to allow paragraphs
-          I lead a ML team of 5 researchers / engineers. My key tasks include curating all the team members by suggesting new solutions and code reviewing.
-          I develop our main code repository and solve the most difficult parts of our problems.
-          From business point of view I play the role of translator from business language into mathematicaly correct tasks.
+          I lead a ML team of 5 researchers / engineers. My key tasks include curating all the team members by suggesting new solutions and code reviewing.  \
+          I develop our main code repository and solve the most difficult parts of our problems.  \
+          From business point of view I play the role of translator from business language into mathematicaly correct tasks.  \
 
       - layout: left
         title: Northern Capital Gateway LLC
@@ -109,7 +109,7 @@ content:
         sub_title: Senior Data Analyst
         caption: November 2017 - July 2019
         description: |
-          Created mathematical models for prediction of passenger traffic and airport capacity based on self-developed queue simulation tool.
+          Created mathematical models for prediction of passenger traffic and airport capacity based on self-developed queue simulation tool.  \
           Also I integrated into airport data system my algorithm which automatically allocates parking stands for aircrafts on daily basis. This algorithm is still in use at Saint Petersburg airport.
 
       - layout: left
