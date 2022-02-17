@@ -74,8 +74,8 @@ content:
         description: |
           I lead a work of ML team of 5 researchers / engineers. My key tasks include curating all the team members by suggesting new solutions and code reviewing.
           I develop our main code repository and solve the most difficult parts of our problems.
-          From business point of view I play the role of translator from business language into mathematicaly correct tasks.  \
-          We develop algorithms for remote sensing data segmentation combining domain research and modern deep learning techniques.
+          From business point of view I play the role of translator from business language into mathematicaly correct tasks.
+          Me and my team create algorithms for remote sensing data segmentation combining domain research and modern deep learning techniques.
 
       - layout: left
         title: Northern Capital Gateway LLC
@@ -95,7 +95,7 @@ content:
           Led the work of the seminars on topology, geometry and ML for high school students.
 
   - title: Educational courses
-    layout: list
+    layout: left
     content:
       - layout: list
         title: Coursera
