@@ -115,12 +115,12 @@ content:
               url: https://coursera.org/share/d6e87cfe301114da1d938013d6943e1a
 
   - title: My interests
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in theory and practice of ML:
-      - Accordion and organ playing & [music composing](https://soundcloud.com/user-677381353)
-      - Game development on Unity
-      - 3D modeling
+      layout: text
+      content: | # this will include new lines to allow paragraphs
+        Alongside my interests in theory and practice of ML:
+        - Accordion and organ playing & [music composing](https://soundcloud.com/user-677381353)
+        - Game development on Unity
+        - 3D modeling
 
   - title: Detailed description of projects # Title for the section
       layout: list # Type of content section (list/text)
