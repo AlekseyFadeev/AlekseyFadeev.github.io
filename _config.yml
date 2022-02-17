@@ -58,12 +58,12 @@ content:
         title: Semantic Segmentation of Remote Sensing data
         # link_text: Project Website
         additional_links:
-          - title:  Habr
+          - title: Habr
             icon: fab fa-book
             url: https://habr.com/ru/company/numdes/blog/575362/
-           - title:  NumDes
-             icon: fab fa-link
-             url: https://numdes.com/
+          - title:  NumDes
+            icon: fab fa-link
+            url: https://numdes.com/
         description: | # this will include new lines to allow paragraphs
           This project started as the research how much useful data we can extract from open source remote sensing data (Sentinel-2, Landsat-8, ALOS & Arctic DEM).|
           The main challenge was the relative small resolution of the available data (10 - 100 m/px), so some problems like connected road graph detection required developing algorithms different from traditional CNNs. |
@@ -79,11 +79,11 @@ content:
           - title: Habr
             icon: fab fa-book
             url: https://habr.com/ru/company/numdes/blog/599971/
-           - title:  NumDes
-           icon: fab fa-link
-           url: https://numdes.com/
+          - title:  NumDes
+            icon: fab fa-link
+            url: https://numdes.com/
         description: |
-          - At this project I was developing algorithms for multi-factor optimization of general topology, network of roads and pipes to minimize total construction cost. |
+            At this project I was developing algorithms for multi-factor optimization of general topology, network of roads and pipes to minimize total construction cost. |
             As the result we have provided solution that is more cost and space utilization efficient than the one, which was manualy developed by the expert. ||
             Models stack: Bayessian optimization, Dijkstra, SGD
             Technology stack: PyTorch, Shapely, GDAL, PostgreSQL, GeoAlchemy, Graphene, Docker
@@ -99,20 +99,20 @@ content:
         sub_title: Team Lead ML engineer
         caption: December 2019 - Present
         description: | # this will include new lines to allow paragraphs
-            I lead a ML team of 5 researchers / engineers. My key tasks include curating all the team members by suggesting new solutions and code reviewing. |
-            I develop our main code repository and solve the most difficult parts of our problems. |
-            From business point of view I play the role of translator from business language into mathematicaly correct tasks. |
+          I lead a ML team of 5 researchers / engineers. My key tasks include curating all the team members by suggesting new solutions and code reviewing. |
+          I develop our main code repository and solve the most difficult parts of our problems. |
+          From business point of view I play the role of translator from business language into mathematicaly correct tasks. |
 
-      -layout: left
-       title: Northern Capital Gateway LLC
-       link: https://pulkovoairport.ru
-       sub_title: Senior Data Analyst
-       caption: November 2017 - July 2019
-       description: |
-         Created mathematical models for prediction of passenger traffic and airport capacity based on self-developed queue simulation tool. |
-         Also I integrated into airport data system my algorithm which automatically allocates parking stands for aircrafts on daily basis. This algorithm is still in use at Saint Petersburg airport. |
+      - layout: left
+        title: Northern Capital Gateway LLC
+        link: https://pulkovoairport.ru
+        sub_title: Senior Data Analyst
+        caption: November 2017 - July 2019
+        description: |
+          Created mathematical models for prediction of passenger traffic and airport capacity based on self-developed queue simulation tool. |
+          Also I integrated into airport data system my algorithm which automatically allocates parking stands for aircrafts on daily basis. This algorithm is still in use at Saint Petersburg airport. |
 
-      -layout: left
+      - layout: left
         title: Laboratory of Continuous Mathematical Education
         link: https://lnmo.ru
         sub_title: Math teacher
@@ -153,4 +153,4 @@ sass:
   style: compressed
 
 plugins:
- - jekyll-seo-tag
+  - jekyll-seo-tag
