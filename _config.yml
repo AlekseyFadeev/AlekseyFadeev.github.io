@@ -135,7 +135,7 @@ content:
             url: https://numdes.com/
         description: |
           At this project I was developing algorithms for multi-factor optimization of general topology, network of roads and pipes to minimize total construction cost.
-          As the result we have provided solution that is more cost and space utilization efficient than the one, which was manualy developed by the expert.  \
+          As the result we have provided solution that is more cost and space utilization efficient than the one, which was manualy developed by an expert.  \
           **Algorithms stack:** Bayessian optimization, Dijkstra, SGD  \
           **Technology stack:** PyTorch, Shapely, GDAL, Optuna, PostgreSQL, GeoAlchemy, Graphene, Docker
 
