@@ -48,7 +48,7 @@ linkedin_username: aleksey-fadeev-8951b8189
 # about_title: About Me
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  A mathematician with strong theoretical background and practical experience in mathematical modeling, optimization and ML applications. I am currently leading the project on remote sensing data segmentation.
+  A mathematician with strong theoretical background and practical experience in mathematical modeling, optimization and ML applications. I am currently leading the project on segmentation of remote sensing data.
 
 content:
   - title: Education # Title for the section
@@ -99,20 +99,19 @@ content:
     content:
       - layout: left
         title: Coursera
-        sub_title: Reinforcement Learning Specialization by Alberta University
-        caption: Summer 2020
-        additional_links:
-          - title: Coursera
-            icon: fas fa-link
-            url: https://coursera.org/share/7097729f7fde92dc3fe56d39d3b889a7
-      - layout: left
-        title: Coursera
-        sub_title: TensorFlow Advanced Techniques by deeplearning.ai
-        caption: Spring 2021
-        additional_links:
-          - title: Coursera
-            icon: fas fa-link
-            url: https://coursera.org/share/d6e87cfe301114da1d938013d6943e1a
+        content:
+          - sub_title: Reinforcement Learning Specialization by Alberta University
+            caption: Summer 2020
+            additional_links:
+              - title: Coursera
+                icon: fas fa-link
+                url: https://coursera.org/share/7097729f7fde92dc3fe56d39d3b889a7
+          - sub_title: TensorFlow Advanced Techniques by deeplearning.ai
+            caption: Spring 2021
+            additional_links:
+              - title: Coursera
+                icon: fas fa-link
+                url: https://coursera.org/share/d6e87cfe301114da1d938013d6943e1a
 
   - title: My interests
     layout: text
