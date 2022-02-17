@@ -114,13 +114,13 @@ content:
               icon: fas fa-link
               url: https://coursera.org/share/d6e87cfe301114da1d938013d6943e1a
 
-        - title: My interests
-          layout: text
-          content: | # this will include new lines to allow paragraphs
-            Alongside my interests in theory and practice of ML:
-            - Accordion and organ playing & [music composing](https://soundcloud.com/user-677381353)
-            - Game development on Unity
-            - 3D modeling
+  - title: My interests
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside my interests in theory and practice of ML:
+      - Accordion and organ playing & [music composing](https://soundcloud.com/user-677381353)
+      - Game development on Unity
+      - 3D modeling
 
   - title: Detailed description of projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -154,10 +154,10 @@ content:
             icon: fas fa-link
             url: https://numdes.com/
         description: |
-            At this project I was developing algorithms for multi-factor optimization of general topology, network of roads and pipes to minimize total construction cost.
-            As the result we have provided solution that is more cost and space utilization efficient than the one, which was manualy developed by the expert.  \
-            **Algorithms stack:** Bayessian optimization, Dijkstra, SGD  \
-            **Technology stack:** PyTorch, Shapely, GDAL, Optuna, PostgreSQL, GeoAlchemy, Graphene, Docker
+          At this project I was developing algorithms for multi-factor optimization of general topology, network of roads and pipes to minimize total construction cost.
+          As the result we have provided solution that is more cost and space utilization efficient than the one, which was manualy developed by the expert.  \
+          **Algorithms stack:** Bayessian optimization, Dijkstra, SGD  \
+          **Technology stack:** PyTorch, Shapely, GDAL, Optuna, PostgreSQL, GeoAlchemy, Graphene, Docker
 
 
 # Footer
