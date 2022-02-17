@@ -97,16 +97,18 @@ content:
   - title: Educational courses
     layout: list
     content:
-      - layout: left
+      - layout: list
         title: Coursera
         content:
-          - sub_title: Reinforcement Learning Specialization by Alberta University
+          - layout: left
+            sub_title: Reinforcement Learning Specialization by Alberta University
             caption: Summer 2020
             additional_links:
               - title: Coursera
                 icon: fas fa-link
                 url: https://coursera.org/share/7097729f7fde92dc3fe56d39d3b889a7
-          - sub_title: TensorFlow Advanced Techniques by deeplearning.ai
+          - layout: left
+            sub_title: TensorFlow Advanced Techniques by deeplearning.ai
             caption: Spring 2021
             additional_links:
               - title: Coursera
