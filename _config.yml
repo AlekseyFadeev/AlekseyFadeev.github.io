@@ -59,10 +59,10 @@ content:
         # link_text: Project Website
         additional_links:
           - title: Habr
-            icon: fab fa-book
+            icon: fab fa-solid fa-book
             url: https://habr.com/ru/company/numdes/blog/575362/
           - title:  NumDes
-            icon: fab fa-link
+            icon: fab fa-solid fa-link
             url: https://numdes.com/
         description: | # this will include new lines to allow paragraphs
           This project started as the research how much useful data we can extract from open source remote sensing data (Sentinel-2, Landsat-8, ALOS & Arctic DEM).
@@ -77,10 +77,10 @@ content:
         title: General Plan Optimization
         additional_links:
           - title: Habr
-            icon: fab fa-book
+            icon: fab fa-solid fa-book
             url: https://habr.com/ru/company/numdes/blog/599971/
           - title:  NumDes
-            icon: fab fa-link
+            icon: fab fa-solid fa-link
             url: https://numdes.com/
         description: |
             At this project I was developing algorithms for multi-factor optimization of general topology, network of roads and pipes to minimize total construction cost.
