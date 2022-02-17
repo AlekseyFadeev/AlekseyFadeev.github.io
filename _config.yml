@@ -6,35 +6,35 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Aleksey Fadeev
+title: Senior ML engineer
+email: aleksei_fadeev@yahoo.com
+website: https://github.com/AlekseyFadeev
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  AlekseyFadeev
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: aleksey-fadeev-8951b8189
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
-# - title: another link
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+## - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
 
@@ -46,71 +46,100 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Mathematician with strong theoretical background and practical experience in modeling, optimization problems and ML applications. Currently leading the project on remote sensing data segmentation.
 
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Semantic Segmentation of Remote Sensing data
         # link_text: Project Website
         additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          - title:  Habr
+            icon: fab fa-book
+            url: https://habr.com/ru/company/numdes/blog/575362/
+           - title:  NumDes
+             icon: fab fa-link
+             url: https://numdes.com/
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          This project started as the research how much useful data we can extract from open source remote sensing data (Sentinel-2, Landsat-8, ALOS & Arctic DEM).|
+          The main challenge was the relative small resolution of the available data (10 - 100 m/px), so some problems like connected road graph detection required developing algorithms different from traditional CNNs. |
+          At the moment we successfully detect roads, buildings, water objects, wetlands, forests (and their types), estimate biomass volumes and CO2 consumption, detect clouds,  sand spots, and upscale data resolution. |
+          Solutions for some of the listed problems (on the similar data resolution) are not published in the scientific papers, but where such comparison can be correctly perform - our results are close and sometimes (depending on the region) even higher than the SOTA. ||
+          Models stack: modern architectures for semantic segmentation (U-net and its variants, FarSeg, Swin transformer U-net) and some self-made architectures. We use ESRGAN, SwinIR and custome architectures for image super-resolution. Also we use CRFs for postprocessing |
+          Technology stack: PyTorch, Shapely, GDAL, PostgreSQL, GeoAlchemy, FastAPI, Docker
+          Currently we are packing our solutions into QGIS software plugin for our customer. |
+
+      - layout: top-middle
+        title: General Plan Optimization
+        additional_links:
+          - title: Habr
+            icon: fab fa-book
+            url: https://habr.com/ru/company/numdes/blog/599971/
+           - title:  NumDes
+           icon: fab fa-link
+           url: https://numdes.com/
+        description: |
+          - At this project I was developing algorithms for multi-factor optimization of general topology, network of roads and pipes to minimize total construction cost. |
+            As the result we have provided solution that is more cost and space utilization efficient than the one, which was manualy developed by the expert. ||
+            Models stack: Bayessian optimization, Dijkstra, SGD
+            Technology stack: PyTorch, Shapely, GDAL, PostgreSQL, GeoAlchemy, Graphene, Docker
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: Numerical Design
+        link: https://numdes.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Team Lead ML engineer
+        caption: December 2019 - Present
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            I lead a ML team of 5 researchers / engineers. My key tasks include curating all the team members by suggesting new solutions and code reviewing. |
+            I develop our main code repository and solve the most difficult parts of our problems. |
+            From business point of view I play the role of translator from business language into mathematicaly correct tasks. |
+
+      -layout: left
+       title: Northern Capital Gateway LLC
+       link: https://pulkovoairport.ru
+       sub_title: Senior Data Analyst
+       caption: November 2017 - July 2019
+       description: |
+         Created mathematical models for prediction of passenger traffic and airport capacity based on self-developed queue simulation tool. |
+         Also I integrated into airport data system my algorithm which automatically allocates parking stands for aircrafts on daily basis. This algorithm is still in use at Saint Petersburg airport. |
+
+      -layout: left
+        title: Laboratory of Continuous Mathematical Education
+        link: https://lnmo.ru
+        sub_title: Math teacher
+        caption: July 2014 - September 2015, January 2020 - March 2020
+        description: |
+          Led the work of the seminars on topology, geometry and ML for high school students.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Saint Petersburg State University
+        caption: 2012 - 2017
+        sub_title: M.Sc. jointly with B.Sc. in Mathematics, Department of Mathematics and Mechanics, Division of Geometry
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          During my study I was working on theoretical questions in the field of dynamical systems with professor S.Yu. Pilyugin.
+          I have obtained new result for dynamical systems generated by special group actions.
+          This result was [published](http://vestnik.spbu.ru/html18/s01/s01v4/10.pdf). Also I gave a talk about my results at Freie Universität Berlin at November 2016.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
+  - title: My interests
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      Alongside my interests in theory and practice of ML:
+      - Accordion and organ playing & [music composing](https://soundcloud.com/user-677381353)
+      - Game development on Unity
+      - 3D modeling
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
