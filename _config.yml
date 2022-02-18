@@ -106,6 +106,12 @@ content:
         description: |
           I led a work of seminars on topology, geometry and ML for high school students.
 
+  - title: Additional education
+      layout: text
+      content: |
+        - **2020**: Reinforcement Learning Specialization by Alberta University on Coursera
+        - **2021**: TensorFlow: Advanced Techniques by deeplearning.ai on Coursera
+
   - title: My interests
     layout: text
     content: | # this will include new lines to allow paragraphs
