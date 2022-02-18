@@ -65,7 +65,7 @@ content:
   - title: Publications
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         caption: 2018
         sub_title: Fadeev A. V. Inverse shadowing in actions of Baumslag—Solitar group. Vestnik
           of Saint Petersburg University. Mathematics. Mechanics. Astronomy, 2018, vol. 5 (63), issue 4,
@@ -74,7 +74,7 @@ content:
   - title: Invited Talks
     layout: list
     content:
-      - layout: left
+      - layout: top-middle
         caption: November 2016
         sub_title: Inverse shadowing in actions of Baumslag—Solitar group, Dynamical Systems Seminar, Freie Universität Berlin, Germany
 
