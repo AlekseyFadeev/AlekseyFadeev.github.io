@@ -134,13 +134,13 @@ content:
             icon: fas fa-link
             url: https://numdes.com/
         description: | # this will include new lines to allow paragraphs
-          This project started as the research on how much useful data we can extract from an open source remote sensing data (Sentinel-2, Landsat-8, ALOS & Arctic DEM).
-          The main challenge was a relative small resolution of the available data (10 - 100 m/px), so some problems like connected road graph detection required developing algorithms different from traditional CNNs.
+          This project started as the research on how much useful data we can extract from open-source remote sensing data (Sentinel-2, Landsat-8, ALOS & Arctic DEM).
+          The main challenge was a relatively small resolution of the available data (10 - 100 m/px), so some problems like connected road graph detection required developing algorithms different from traditional CNNs.
           At the moment we successfully detect roads, buildings, water objects, wetlands, forests (and their types), estimate biomass volumes and CO2 consumption, detect clouds,  sand spots, and upscale data resolution.
           Solutions for some of the listed problems (on the similar data resolution) are not published in the scientific papers, but where such comparison can be correctly performed - our results are close and sometimes (depending on the region) even higher than the SOTA.  \
-          **Algorithms stack:** modern architectures for semantic segmentation (U-net and its variants, FarSeg, Swin transformer U-net) and some self-made architectures. We use ESRGAN, SwinIR and custom architectures for image super-resolution. Also we use CRFs for postprocessing.  \
+          **Algorithms stack:** modern architectures for semantic segmentation (U-net and its variants, FarSeg, Swin transformer U-net) and some self-made architectures. We use ESRGAN, SwinIR, and custom architectures for image super-resolution. Also we use CRFs for postprocessing.  \
           **Technology stack:** PyTorch, Shapely, GDAL, PostgreSQL, GeoAlchemy, FastAPI, Docker  \
-          Currently we are packing our solutions into QGIS software plugin for our customer.
+          Currently, we are packing our solutions into the QGIS software plugin for our customers.
 
       - layout: top-middle
         title: General Plan Optimization
@@ -152,8 +152,8 @@ content:
             icon: fas fa-link
             url: https://numdes.com/
         description: |
-          At this project I was developing algorithms for a multi-factor optimization of general topology, network of roads and pipes to minimize total construction cost.
-          As the result we have provided solution that is more cost and space utilization efficient than the one, which was manualy developed by an expert.  \
+          At this project I was developing algorithms for a multi-factor optimization of general topology, a network of roads, and pipes to minimize total construction cost.
+          As the result, we have provided a solution that is more cost and space utilization efficient than the one, which was manually developed by an expert.  \
           **Algorithms stack:** Bayessian optimization, Dijkstra, SGD  \
           **Technology stack:** PyTorch, Shapely, GDAL, Optuna, PostgreSQL, GeoAlchemy, Graphene, Docker
 
