@@ -103,6 +103,13 @@ content:
           **This algorithm is still in use at Saint Petersburg airport**.
 
       - layout: left
+          title: Sberbank of Russia
+          link: https://sberbank.ru/
+          sub_title: Intern Data Analyst
+          caption: Mar. 2017 - July 2017
+          description: I was engaged in the automation of routine tasks of the department.
+
+      - layout: left
         title: Laboratory of Continuous Mathematical Education
         link: https://lnmo.ru
         sub_title: Math teacher
