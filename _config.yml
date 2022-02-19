@@ -156,11 +156,12 @@ content:
           **Technology stack:** PyTorch, Shapely, GDAL, Optuna, PostgreSQL, GeoAlchemy, Graphene, Docker.
 
   - title: Personal Interests
-      layout: text
-      content: | # this will include new lines to allow paragraphs
-        - Accordion and organ playing & [music composing](https://soundcloud.com/user-677381353)
-        - Game development on Unity
-        - 3D modeling
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Accordion and organ playing & [music composing](https://soundcloud.com/user-677381353)
+      - Game development on Unity
+      - 3D modeling
+
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
