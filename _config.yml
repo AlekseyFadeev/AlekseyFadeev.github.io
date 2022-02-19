@@ -132,9 +132,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           This project started as the research on how much region information we can extract from raw open-source remote sensing data (Sentinel-2, Landsat-8, ALOS & Arctic DEM).
           The main challenge was a relatively small resolution of the latter (10 - 100 m/px), so some problems like connected road graph detection required developing algorithms different from traditional CNNs.  \
-
           At the moment we successfully detect roads, buildings, water objects, wetlands, different types of forests, estimate biomass volumes and CO2 consumption, detect clouds,  sand spots, and upscale data resolution.  \
-
           Our solutions for some of the listed problems are not openly published. However, where such comparison is appropriate - our results are close to or higher than the SOTA, depending on the region.  \
           **Algorithms stack:** modern neural network architectures for semantic segmentation (U-net and its variants, FarSeg, Swin transformer U-net), including some self-made architectures. We use ESRGAN, SwinIR, and custom architectures for image super-resolution. We also use CRFs for postprocessing.  \
           **Technology stack:** PyTorch, Shapely, GDAL, PostgreSQL, GeoAlchemy, FastAPI, Docker.  \
