@@ -73,7 +73,8 @@ content:
   - title: Invited Talks
     layout: text
     content: |
-      - Inverse shadowing in actions of Baumslag—Solitar group, Dynamical Systems Seminar, Freie Universität Berlin, Germany (November 2016)
+      - Shadowing theory of approximate trajectories, Workshop "Dynamical Systems and Perturbations", Euler International Mathematical Institute, Saint Petersburg (Oct. 2017)
+      - Inverse shadowing in actions of Baumslag—Solitar group, Dynamical Systems Seminar, Freie Universität Berlin, Germany (Nov. 2016)
 
 
   - title: Experience
@@ -107,7 +108,7 @@ content:
         link: https://sberbank.ru
         sub_title: Intern Data Analyst
         caption: Mar. 2017 - July 2017
-        description: I was engaged in the automation of routine tasks of the department.
+        description: I was engaged in the automation of routine tasks of a department.
 
       - layout: left
         title: Laboratory of Continuous Mathematical Education
