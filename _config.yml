@@ -39,9 +39,9 @@ linkedin_username: aleksey-fadeev-8951b8189
 
 # Google Analytics and Tag Manager
 # Using more than one of these may cause issues with reporting
-gtm: "GTM-5D7TFTM"
+# gtm: "GTM-5D7TFTM"
 # gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+google_analytics: "G-CQELGDP0RH"
 
 # About Section
 # about_title: About Me
