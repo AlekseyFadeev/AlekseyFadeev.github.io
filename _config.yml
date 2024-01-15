@@ -48,50 +48,34 @@ google_analytics: "G-CQELGDP0RH"
 about_profile_image: images/profile.jpeg
 about_content: | # this will include new lines to allow paragraphs
   M.Sc. in mathematics with industrial experience in machine learning, mathematical modeling and optimization.
-  I am now considering a translation into a research-oriented career in machine learning.
 
 content:
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Saint Petersburg State University
-        caption: 2012 – 2017
-        sub_title: M.Sc. jointly with B.Sc. in Mathematics, Department of Mathematics and Mechanics, Division of Geometry
-        description: | # this will include new lines to allow paragraphs
-          Thesis: Inverse shadowing in actions of Baumslag—Solitar group (**published**)  \
-          Supervisor: prof. S.Yu. Pilyugin  \
-          GPA: 4.7
-
-  - title: Publications
-    layout: text
-    content: |
-      - Fadeev A. V. Inverse shadowing in actions of Baumslag—Solitar group. Vestnik
-        of Saint Petersburg University. Mathematics. Mechanics. Astronomy, 2018, vol. 5 (63), issue 4,
-        pp. 637–644. https://doi.org/10.21638/11701/spbu01.2018.410 (In Russian).
-
-  - title: Invited Talks
-    layout: text
-    content: |
-      - Shadowing theory of approximate trajectories, Workshop "Dynamical Systems and Perturbations", Euler International Mathematical Institute, Saint Petersburg (Oct. 2017)
-      - Inverse shadowing in actions of Baumslag—Solitar group, Dynamical Systems Seminar, Freie Universität Berlin, Germany (Nov. 2016)
-
 
   - title: Experience
     layout: list
     content:
       - layout: left
+        title: Mitek Systems
+        link: https://www.miteksystems.com/
+        sub_title: Senior ML Engineer
+        caption: Apr. 2022 - Present
+        description: |
+          I am a senior ML engineer specializing in solving biometric challenges in computer vision. 
+          Primarily, I contribute to the development of models for fraud detection and presentation attack detection. 
+          Many of my models are integrated into a product that is utilized by millions of end users.
+
+      - layout: left
         title: Numerical Design
         link: https://numdes.com
         sub_title: Team Lead ML Engineer
-        caption: Dec. 2019 – Present
+        caption: Dec. 2019 – Apr. 2022
         description: |
-          I am a senior machine learning engineer leading a team of 5 junior/middle machine learning and software specialists.
-          I am responsible for mathematical and algorithmic groundwork.
-          Besides, I am a core developer and maintainer of our code repository.
-          Additionally, I communicate with business clients` representatives to translate their requests into statements of work.
-          My team creates algorithms for remote sensing data segmentation.
-          We combine domain-specific techniques with modern deep learning practices.
+          I was a lead machine learning engineer with a team of 5 junior/middle machine learning and software specialists.
+          I was responsible for mathematical and algorithmic groundwork.
+          Besides, I am was core developer and maintainer of our code repository.
+          Additionally, I communicated with business clients` representatives to translate their requests into statements of work.
+          My team created algorithms for remote sensing data segmentation.
+          We combined domain-specific techniques with modern deep learning practices.
 
       - layout: left
         title: Northern Capital Gateway LLC
@@ -117,6 +101,34 @@ content:
         caption: July 2014 - Sept. 2015, Jan. 2020 - Mar. 2020
         description: |
           I taught seminars on topology, geometry, and machine learning for high school students.
+  
+  
+
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Saint Petersburg State University
+        caption: 2012 – 2017
+        sub_title: M.Sc. jointly with B.Sc. in Mathematics, Department of Mathematics and Mechanics, Division of Geometry
+        description: | # this will include new lines to allow paragraphs
+          Thesis: Inverse shadowing in actions of Baumslag—Solitar group (**published**)  \
+          Supervisor: prof. S.Yu. Pilyugin  \
+          GPA: 4.7
+
+  - title: Publications
+    layout: text
+    content: |
+      - Fadeev A. V. Inverse shadowing in actions of Baumslag—Solitar group. Vestnik
+        of Saint Petersburg University. Mathematics. Mechanics. Astronomy, 2018, vol. 5 (63), issue 4,
+        pp. 637–644. https://doi.org/10.21638/11701/spbu01.2018.410 (In Russian).
+
+  - title: Invited Talks
+    layout: text
+    content: |
+      - Shadowing theory of approximate trajectories, Workshop "Dynamical Systems and Perturbations", Euler International Mathematical Institute, Saint Petersburg (Oct. 2017)
+      - Inverse shadowing in actions of Baumslag—Solitar group, Dynamical Systems Seminar, Freie Universität Berlin, Germany (Nov. 2016)
 
   - title: Additional Education
     layout: text
@@ -166,7 +178,7 @@ content:
     content: | # this will include new lines to allow paragraphs
       - Accordion and organ playing & [music composing](https://soundcloud.com/user-677381353)
       - Game development on Unity
-      - 3D modeling
+      - 3D modeling in Blender
 
 # Footer
 footer_show_references: true
